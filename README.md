@@ -16,7 +16,7 @@ This contraption is an object that comes with two properties, `tc39ignoredme0` a
 
 ```diff
 -for (let i = 0; i < arr.length; i++) {
-+for (let i = globalThis.tc39ignoredmed0; i < arr.length; i++) {
++for (let i = globalThis.tc39ignoredme0; i < arr.length; i++) {
    console.log(arr[i])
  }
 ```
